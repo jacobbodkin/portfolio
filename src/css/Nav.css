@@ -1,0 +1,25 @@
+.navbar {
+  background-color: rgba(0,0,0,0);
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+  padding: 1.8em 1.5em 2em 2.1em;
+}
+
+.logo {
+  width: 45%;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  color: white;
+  font-size: 1.1em;
+  font-family: 'News Cycle', sans-serif;
+  text-transform: lowercase;
+  letter-spacing: 2px;
+}
