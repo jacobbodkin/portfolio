@@ -1,4 +1,63 @@
-.hero {
+.portfolio {
+  height: 100%;
+}
+
+.clickables {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
   padding: 0;
-  height: 100%
+  margin: 0;
+  z-index: 9;
+}
+
+.clickLeft, .clickRight {
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+.clickLeft {
+  cursor: w-resize;
+}
+
+.clickRight {
+  cursor: e-resize;
+}
+
+.carousel, .item, .active {
+    height: 100%;
+}
+
+.item {
+  width: 100%;
+  position: absolute;
+  -webkit-transition: opacity .75s ease-in-out;
+  -moz-transition: opacity .75s ease-in-out;
+  -o-transition: opacity .75s ease-in-out;
+  transition: opacity .75s ease-in-out;
+}
+
+div.transparent {
+  opacity: 0;
+  z-index: 0;
+}
+
+.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }

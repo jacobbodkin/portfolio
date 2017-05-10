@@ -1,25 +1,89 @@
+a, p.nav-link {
+  font-size: 1.1em;
+  font-family: 'News Cycle', sans-serif;
+  text-transform: lowercase;
+  letter-spacing: 2px;
+}
+
+button:focus {
+  outline: none;
+}
+
 .navbar {
-  background-color: rgba(0,0,0,0);
+  width: 100%;
+  padding: 2% 2% 2% 2%;
   z-index: 10;
   position: absolute;
-  width: 100%;
-  padding: 1.8em 1.5em 2em 2.1em;
+}
+
+a.navbar-brand {
+  padding: 0;
 }
 
 .logo {
-  width: 45%;
-  padding: 0;
+  width: 40%;
+  padding: 0 1em;
   margin: 0;
+}
+
+.navbar-toggler-icon, .navbar-toggler {
+  color: white;
 }
 
 .nav-item {
   padding: 0 10px;
 }
 
-.nav-link {
+.portfolioNav {
   color: white;
-  font-size: 1.1em;
-  font-family: 'News Cycle', sans-serif;
-  text-transform: lowercase;
-  letter-spacing: 2px;
+}
+
+.portfolioNavBackground {
+  background-color: rgba(0,0,0,0);
+}
+
+.portfolioNav:hover,
+.portfolioNav:active, .portfolioNav:focus,
+.logo:focus,
+.logo:hover {
+  opacity: .75;
+  color: white;
+  background-color: rgba(0,0,0,0);
+}
+
+.otherNav {
+  color: black;
+}
+
+.otherNavBackground {
+  position: relative;
+}
+
+.otherNavBackground {
+    background-color: white;
+}
+
+.otherNav:active, .otherNav:focus, .otherNav:hover {
+  opacity: .6;
+  color: black;
+  background-color: rgba(0,0,0,0);
+}
+
+#navbarDropdownMenuLink {
+  cursor: pointer;
+  margin: 0;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+  color: white;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse, .dropdown-menu {
+    text-align: right;
+    }
 }
