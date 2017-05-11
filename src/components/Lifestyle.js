@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 
 import ImageGallery from './ImageGallery';
 
-class Climbing extends Component {
+class Lifestyle extends Component {
   constructor(props) {
     super(props)
 
     this.state= ({
-      photoSetId: '72157681535129721'
+      photoSetId: '72157683679775915'
     })
   }
 
@@ -20,4 +20,4 @@ class Climbing extends Component {
   }
 }
 
-export default Climbing;
+export default Lifestyle;

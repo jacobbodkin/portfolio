@@ -105,32 +105,31 @@ class Nav extends Component {
                 className={ `dropdown-menu` }
                 aria-labelledby="navbarDropdownMenuLink"
                 >
-                <span onClick={ () => this.resetPage() }><FaAngleDown /></span>
                 <Link
                   to="/climbing"
                   className={ `dropdown-item ${ this.changeNavLook(page) }` }
                   onClick={ () => this.resetPage() }
                   >Climbing</Link>
-                <a
+                <Link
+                  to="/lifestyle"
                   className={ `dropdown-item ${ this.changeNavLook(page) }` }
-                  href="#"
                   onClick={ () => this.resetPage() }
-                  >Lifestyle</a>
-                <a
+                  >Lifestyle</Link>
+                <Link
+                  to="/guadtroutflyfishing"
                   className={ `dropdown-item ${ this.changeNavLook(page) }` }
-                  href="#"
                   onClick={ () => this.resetPage() }
-                  >LL Bean Trail Running</a>
-                <a
+                  >Guadalupe River Fly Fishing</Link>
+                <Link
+                  to="/howler+bote"
                   className={ `dropdown-item ${ this.changeNavLook(page) }` }
-                  href="#"
                   onClick={ () => this.resetPage() }
-                  >Howler Bros & Bote</a>
-                <a
+                  >Howler Bros & Bote</Link>
+                <Link
+                  to="/waterloo+tribeza"
                   className={ `dropdown-item ${ this.changeNavLook(page) }` }
-                  href="#"
                   onClick={ () => this.resetPage() }
-                  >Waterloo Surfcraft & Tribeza</a>
+                  >Waterloo Surfcraft & Tribeza</Link>
               </div>
             </li>
             <li className="nav-item">

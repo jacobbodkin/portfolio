@@ -11,17 +11,32 @@ class Portfolio extends Component {
       images:[
         {
           key: 0,
-          url: './images/1.jpg',
+          url: './images/landing1.jpg',
           active: 'active'
         },
         {
           key: 1,
-          url: './images/2.jpg',
+          url: './images/landing2.jpg',
           active: 'transparent'
         },
         {
           key: 2,
-          url: './images/3.jpg',
+          url: './images/landing3.jpg',
+          active: 'transparent'
+        },
+        {
+          key: 3,
+          url: './images/landing4.jpg',
+          active: 'transparent'
+        },
+        {
+          key: 4,
+          url: './images/landing5.jpg',
+          active: 'transparent'
+        },
+        {
+          key: 5,
+          url: './images/landing6.jpg',
           active: 'transparent'
         },
       ]

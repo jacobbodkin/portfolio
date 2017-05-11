@@ -18,11 +18,11 @@
   margin: 0;
 }
 .clickLeft {
-  cursor: w-resize;
+  cursor: url('../../public/images/left.png'), w-resize;
 }
 
 .clickRight {
-  cursor: e-resize;
+  cursor: url('../../public/images/right.png'), e-resize;
 }
 
 .carousel, .item, .active {

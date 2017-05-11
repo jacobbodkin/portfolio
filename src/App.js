@@ -12,6 +12,10 @@ import Video from './components/Video';
 import About from './components/About';
 import Contact from './components/Contact';
 import Climbing from './components/Climbing';
+import Lifestyle from './components/Lifestyle';
+import GuadTrout from './components/GuadTrout';
+import Howler from './components/Howler';
+import Waterloo from './components/Waterloo';
 
 class App extends Component {
   constructor(props) {
@@ -33,6 +37,10 @@ class App extends Component {
             <Route path="/about" component={ () => <About /> }/>
             <Route path="/contact" component={ () => <Contact /> }/>
             <Route path="/climbing" component={ () => <Climbing /> }/>
+            <Route path="/lifestyle" component={ () => <Lifestyle /> }/>
+            <Route path="/guadtroutflyfishing" component={ () => <GuadTrout /> }/>
+            <Route path="/howler+bote" component={ () => <Howler /> }/>
+            <Route path="/waterloo+tribeza" component={ () => <Waterloo /> }/>
 
         </div>
       </Router>
