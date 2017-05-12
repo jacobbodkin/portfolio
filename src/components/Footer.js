@@ -14,7 +14,7 @@ class Footer extends Component {
         <div className="socialLinks col-4">
         <a href="https://www.instagram.com/jacob_bodkin/"><i className="fa fa-instagram" aria-hidden="true"></i></a>
         <a href="https://www.facebook.com/jacobbodkinphoto"><i className="fa fa-facebook" aria-hidden="true"></i></a>
-        <a href="linkedin.com/in/jacob-bodkin"><i className="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://linkedin.com/in/jacob-bodkin"><i className="fa fa-linkedin" aria-hidden="true"></i></a>
         </div>
 
       </footer>
