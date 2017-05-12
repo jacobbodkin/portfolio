@@ -23,26 +23,10 @@ a:hover {
 	text-decoration: underline;
 }
 
-a:link {
-    text-decoration: none;
-}
-a:hover {
-    color: #ccc;
-}
-.container {
-	margin: 0 auto;
-}
 
-h1, h2, h3 {
-	color: #222;
-	font-weight: 100;
-	width: 90%;
-	margin: 0 auto;
-	margin-top: 10px;
-}
 
 .gallery{
-    padding-top: 5px;
+  padding-top: 5px;
 }
 #Gallery {
     margin: 0 auto;

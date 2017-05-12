@@ -1,0 +1,41 @@
+.about {
+  max-width: 100%;
+  margin: 20px 20px 0 20px;
+  font-family: 'News Cycle', sans-serif;
+
+}
+
+.descImageSet {
+  padding: 15px 5px;
+  margin: 0;
+}
+
+.descImages {
+  padding: 0 5px;
+}
+
+.descImage {
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+.descText>p {
+  font-family: 'News Cycle', sans-serif;
+  font-size: 16.5px;
+
+}
+
+.clientTitle {
+  font-size: 1.8em;
+  margin: 40px 0 0 20px;
+}
+
+.clients {
+  margin: 20px;
+}
+
+.icon {
+  width: 100%;
+  padding: 20px;
+}

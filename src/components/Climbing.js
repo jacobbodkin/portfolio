@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import ImageGallery from './ImageGallery';
 
+import '../css/galleries.css';
+
 class Climbing extends Component {
   constructor(props) {
     super(props)
@@ -13,7 +15,7 @@ class Climbing extends Component {
 
   render() {
     return (
-      <div className="about">
+      <div className="climbing galleries">
         <ImageGallery photoSetId={ this.state.photoSetId } />
       </div>
     );

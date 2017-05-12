@@ -1,8 +1,5 @@
 a, p.nav-link {
-  font-size: 1.1em;
-  font-family: 'News Cycle', sans-serif;
   text-transform: lowercase;
-  letter-spacing: 2px;
 }
 
 button:focus {

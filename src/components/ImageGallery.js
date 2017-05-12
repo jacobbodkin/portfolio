@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import Gallery from 'react-photo-gallery';
 import $ from 'jquery';
 import _ from 'lodash';
 import Measure from 'react-measure';
 import Lightbox from 'react-images';
+
 
 import '../css/Gallery.css'
 

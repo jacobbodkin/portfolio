@@ -1,7 +1,15 @@
 html, body, #root, .App {
   height: 100%;
+  width: 100%;
+
 }
 
 .container-fluid, a {
   padding: 0;
+}
+
+a,p,h1,h2,h3,label {
+  font-size: 1.1em;
+  font-family: 'News Cycle', sans-serif;
+  letter-spacing: 1px;
 }

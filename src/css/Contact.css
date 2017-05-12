@@ -1,0 +1,29 @@
+.contact {
+  max-width: 100%;
+  margin: 0;
+  padding-top: 100px;
+}
+
+.contactInfoList {
+  border-right: thin solid grey;
+}
+
+.contactInfo {
+  font-size: 15px;
+  text-align: right;
+  line-height: 25px;
+}
+
+.emailLink {
+  color: black;
+  text-decoration: underline;
+}
+
+.form {
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}

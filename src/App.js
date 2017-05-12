@@ -16,16 +16,26 @@ import Lifestyle from './components/Lifestyle';
 import GuadTrout from './components/GuadTrout';
 import Howler from './components/Howler';
 import Waterloo from './components/Waterloo';
+import Footer from './components/Footer';
 
 class App extends Component {
   constructor(props) {
     super(props)
 
-
+    this.state = {
+      page: window.location.pathname
+    }
   }
 
   render() {
 
+
+    let footer = null;
+    if (this.state.page === '/') {
+        footer = null
+      } else {
+        footer =  <Footer />
+      }
 
     return (
       <Router>
@@ -41,7 +51,7 @@ class App extends Component {
             <Route path="/guadtroutflyfishing" component={ () => <GuadTrout /> }/>
             <Route path="/howler+bote" component={ () => <Howler /> }/>
             <Route path="/waterloo+tribeza" component={ () => <Waterloo /> }/>
-
+          { footer }
         </div>
       </Router>
     );

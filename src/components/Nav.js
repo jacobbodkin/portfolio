@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 import '../css/Nav.css'
 
 import FaBars from 'react-icons/lib/fa/bars';
-import FaAngleDown from 'react-icons/lib/fa/angle-down';
 
 
 class Nav extends Component {
