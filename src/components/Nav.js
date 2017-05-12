@@ -64,7 +64,7 @@ class Nav extends Component {
     if (page === '/') {
         logo = <img className="logo" src="./images/JB-Logo_white.png" alt="Jacob Bodkin" />
       } else {
-        logo =  <img className="logo" src="./images/JB-Logo_black.png" alt="Jacob Bodkin" />
+        logo =  <img className="logo" src="./images/jbLogo-black.png" alt="Jacob Bodkin" />
       }
 
     return (
