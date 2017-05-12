@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
 
+import Footer from './Footer';
+
 import '../css/About.css';
 
 class About extends Component {
@@ -8,31 +10,8 @@ class About extends Component {
     super(props)
 
     this.state = {
-      clientIcons: []
+      clientIcons: ['./images/clients/aac-logo.jpg','./images/clients/abp-logo.jpg', './images/clients/afm-logo.png', './images/clients/bote-logo.png', './images/clients/bro-logo.png', './images/clients/climbing-logo.jpg', './images/clients/crossfitcentral-logo.jpg', './images/clients/dpm-logo.gif', './images/clients/evolv-logo.gif', './images/clients/grasssticks-logo.png', './images/clients/howlerbros-logo.jpg', './images/clients/ifa-logo.jpg', './images/clients/llbean-logo.png', './images/clients/rab-logo.jpg', './images/clients/rockice-logo.png', './images/clients/scarpa-logo.jpg']
     }
-  }
-
-  componentDidMount() {
-    this.getClients();
-  }
-
-  getClients() {
-    let clientIcons = [];
-    let self = this;
-
-    $.ajax({
-      url : './images/clients',
-      success: function (data) {
-        $(data).find("a").attr("href", function (i, val) {
-            if( val.match(/\.(jpe?g|png|gif)$/) ) {
-                clientIcons.push('.'+val)
-            }
-        });
-        self.setState({
-          clientIcons: clientIcons
-        })
-      }
-    });
   }
 
 
@@ -40,7 +19,7 @@ class About extends Component {
 
     const clients = this.state.clientIcons.map((client) => {
       return (
-        <div key={ client } className="col-md-2 col-4 clientIcon">
+        <div key={ client } className="col-md-2 col-3 clientIcon">
           <img src={ client } className="icon"/>
         </div>
       )
@@ -63,7 +42,7 @@ class About extends Component {
             <br/>
             <p>Austin, TX based, feel free to give me a call or shoot me an email. I'm always happy to talk shop or about a project you are excited about.</p>
             <br/>
-            <p>If you are into architecture, see my architectural photo work at <a href="http://jacobbodkinphoto.com">jacobbodkinphoto.com</a>.</p>
+            <p>If you are into architecture, see my architectural photo work at <a className="descText" href="http://jacobbodkinphoto.com">jacobbodkinphoto.com</a>.</p>
           </div>
         </div>
 
@@ -75,6 +54,7 @@ class About extends Component {
             { clients }
           </div>
         </div>
+        <Footer />
       </div>
     );
   }

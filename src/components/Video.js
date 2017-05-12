@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Footer from './Footer';
+
 import '../css/Video.css';
 
 class Video extends Component {
@@ -33,8 +35,11 @@ class Video extends Component {
     })
 
     return(
-      <div className="video row justify-content-center">
-        { videos }
+      <div className="video">
+        <div className="row justify-content-center">
+          { videos }
+        </div>
+        <Footer />
       </div>
     )
   }

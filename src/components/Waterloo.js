@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import ImageGallery from './ImageGallery';
+import Footer from './Footer';
 
 class Waterloo extends Component {
   constructor(props) {
@@ -13,8 +14,11 @@ class Waterloo extends Component {
 
   render() {
     return (
-      <div className="about">
-        <ImageGallery photoSetId={ this.state.photoSetId } />
+      <div className="waterloo">
+        <div className="galleries">
+          <ImageGallery photoSetId={ this.state.photoSetId } />
+        </div>
+        <Footer />
       </div>
     );
   }

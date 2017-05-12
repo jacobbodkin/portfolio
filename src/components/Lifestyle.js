@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import ImageGallery from './ImageGallery';
+import Footer from './Footer';
 
 class Lifestyle extends Component {
   constructor(props) {
@@ -13,8 +14,11 @@ class Lifestyle extends Component {
 
   render() {
     return (
-      <div className="about">
-        <ImageGallery photoSetId={ this.state.photoSetId } />
+      <div className="lifestyle">
+        <div className="galleries">
+          <ImageGallery photoSetId={ this.state.photoSetId } />
+        </div>
+        <Footer />
       </div>
     );
   }

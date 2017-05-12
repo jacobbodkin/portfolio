@@ -12,11 +12,11 @@ class ImageGallery extends Component{
   constructor(props){
 	  super(props)
       this.state = {
-        photos:null,
-        pageNum:1,
-        totalPages:1,
+        photos: null,
+        pageNum: 1,
+        totalPages: 1,
         loadedAll: false,
-        currentImage:0
+        currentImage: 0
       }
 	  this.handleScroll = this.handleScroll.bind(this);
 	  this.loadMorePhotos = this.loadMorePhotos.bind(this);

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import ImageGallery from './ImageGallery';
+import Footer from './Footer';
 
 import '../css/galleries.css';
 
@@ -15,8 +16,11 @@ class Climbing extends Component {
 
   render() {
     return (
-      <div className="climbing galleries">
-        <ImageGallery photoSetId={ this.state.photoSetId } />
+      <div className="climbing">
+        <div className="galleries">
+          <ImageGallery photoSetId={ this.state.photoSetId } />
+        </div>
+        <Footer />
       </div>
     );
   }
