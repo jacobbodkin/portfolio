@@ -36,7 +36,7 @@ class Video extends Component {
 
     return(
       <div className="video">
-        <div className="row justify-content-center">
+        <div className="videoList row justify-content-center">
           { videos }
         </div>
         <Footer />
