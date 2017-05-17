@@ -27,6 +27,8 @@ class Contact extends Component {
 
             <form className="form col-md-6 col-12" action="https://formspree.io/jacob@jacobbodkin.com" method="POST">
               <div className="form-group">
+                {/* Hides form from scrapers */}
+                <input type="text" name="_gotcha" style={ { display: 'none' } } />
                 <label>Name</label>
                 <input name="name" type="text" className="form-control" id="name" aria-describedby="emailHelp" />
               </div>
@@ -42,6 +44,8 @@ class Contact extends Component {
                 <label>Comments</label>
                 <textarea name="name" className="form-control" id="comments" rows="8"></textarea>
               </div>
+              {/* Takes users back to contact page */}
+              <input type="hidden" name="_next" value="https://jacobbodkin.com/" />
               <button type="submit" className="btn btn-primary">Get in Touch</button>
             </form>
           </div>
