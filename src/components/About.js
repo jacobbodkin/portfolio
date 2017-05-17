@@ -42,7 +42,7 @@ class About extends Component {
             <br/>
             <p>Austin, TX based, feel free to give me a call or shoot me an email. I'm always happy to talk shop or about a project you are excited about.</p>
             <br/>
-            <p>If you are into architecture, see my architectural photo work at <a className="descText" href="http://jacobbodkinphoto.com">jacobbodkinphoto.com</a>.</p>
+            <p>If you are into architecture, see my architectural photo work at <a className="descText" href="http://jacobbodkinphoto.com" target="_blank">jacobbodkinphoto.com</a>.</p>
           </div>
         </div>
 

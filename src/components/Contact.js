@@ -20,7 +20,7 @@ class Contact extends Component {
               <h3 className="col-12 contactInfo">
                 Aurora Photos - stock agency<br/>
                 207.828.8787<br/>
-                <a className="emailLink contactInfo" href="https://www.auroraphotos.com/result?self_url=%2Fadvanced-search&initvalue4search=2&advancedSearchKey=jacob+bodkin&keywordSearchFields=uname&license_type%5B%5D=rm&license_type%5B%5D=rf&extParam%5Breleases%5D%5B%5D=n&extParam%5Breleases%5D%5B%5D=r&extParam%5Breleases%5D%5B%5D=x&search_orientation_extSearch%5B%5D=h&search_orientation_extSearch%5B%5D=v&search_orientation_extSearch%5B%5D=p&search_orientation_extSearch%5B%5D=q&image_colors_extSearch%5B%5D=c&image_colors_extSearch%5B%5D=bw">www.auroraphotos.com</a><br/>
+                <a className="emailLink contactInfo" href="https://www.auroraphotos.com/result?self_url=%2Fadvanced-search&initvalue4search=2&advancedSearchKey=jacob+bodkin&keywordSearchFields=uname&license_type%5B%5D=rm&license_type%5B%5D=rf&extParam%5Breleases%5D%5B%5D=n&extParam%5Breleases%5D%5B%5D=r&extParam%5Breleases%5D%5B%5D=x&search_orientation_extSearch%5B%5D=h&search_orientation_extSearch%5B%5D=v&search_orientation_extSearch%5B%5D=p&search_orientation_extSearch%5B%5D=q&image_colors_extSearch%5B%5D=c&image_colors_extSearch%5B%5D=bw" target="_blank">www.auroraphotos.com</a><br/>
                 <a className="emailLink contactInfo" href="mailto:sales@auroraphotos.com">sales@auroraphotos.com</a>
               </h3>
             </div>
