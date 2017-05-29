@@ -131,6 +131,17 @@ class Nav extends Component {
                   >Waterloo Surfcraft & Tribeza</Link>
               </div>
             </li>
+
+            <li className="nav-item">
+              <Link
+                to="/development"
+                className={ `nav-link ${ this.changeNavLook(page) }` }
+                onClick={ () => this.resetPage() }
+                >
+                  Development
+              </Link>
+            </li>
+
             <li className="nav-item">
               <Link
                 to="/video"
@@ -140,6 +151,7 @@ class Nav extends Component {
                   Video
               </Link>
             </li>
+
             <li className="nav-item">
               <Link
                 to="/about"
@@ -149,6 +161,7 @@ class Nav extends Component {
                   About
               </Link>
             </li>
+            
             <li className="nav-item">
               <Link
                 to="/contact"

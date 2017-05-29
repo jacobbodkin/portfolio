@@ -16,6 +16,7 @@ import Lifestyle from './components/Lifestyle';
 import GuadTrout from './components/GuadTrout';
 import Howler from './components/Howler';
 import Waterloo from './components/Waterloo';
+import Development from './components/Development';
 
 class App extends Component {
 
@@ -35,6 +36,7 @@ class App extends Component {
             <Route path="/guadtroutflyfishing" component={ () => <GuadTrout /> }/>
             <Route path="/howler+bote" component={ () => <Howler /> }/>
             <Route path="/waterloo+tribeza" component={ () => <Waterloo /> }/>
+            <Route path="/development" component={ () => <Development /> }/>
         </div>
       </Router>
     );
