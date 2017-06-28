@@ -40,20 +40,22 @@ a:hover {
     margin: 0 auto 30px auto;
 }
 
-.loading-msg:after {
+/*.loading-msg:after {
   overflow: hidden;
   display: inline-block;
   vertical-align: middle;
   padding-bottom: 10px;
   -webkit-animation: ellipsis steps(4,end) 900ms infinite;
   animation: ellipsis steps(4,end) 900ms infinite;
-  content: "\2026"; /* ascii code for the ellipsis character */
+  content: "\2026";
   width: 0px;
-}
+}*/
+
 #react-images-container{
  background-color: rgba(0,0,0,0.9);
 }
-@keyframes ellipsis {
+
+/*@keyframes ellipsis {
   to {
     width: 1.25em;
   }
@@ -63,10 +65,12 @@ a:hover {
   to {
     width: 1.25em;
   }
-}
+}*/
+
 #msg-app-loading{
     margin-top: 60px;
 }
+
 #msg-loading-more{
     text-decoration: none;
     display: block;

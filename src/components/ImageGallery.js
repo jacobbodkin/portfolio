@@ -4,7 +4,7 @@ import $ from 'jquery';
 import _ from 'lodash';
 import Measure from 'react-measure';
 import Lightbox from 'react-images';
-
+import Loader from 'halogen/ClipLoader';
 
 import '../css/Gallery.css'
 
@@ -156,13 +156,13 @@ class ImageGallery extends Component{
               isOpen={ this.state.lightboxIsOpen }
               width={ 1600 }
             />
-		        { !this.state.loadedAll && <div className="loading-msg" id="msg-loading-more">Loading</div> }
+		        { !this.state.loadedAll && <div className="loading-msg" id="msg-loading-more"><Loader color='black' /></div> }
 		      </div>
         );
       } else{
           return(
 		        <div className="App">
-			        <div id="msg-app-loading" className="loading-msg">Loading</div>
+			        <div id="msg-app-loading" className="loading-msg"><Loader color='black' /></div>
 		        </div>
           );
       }
