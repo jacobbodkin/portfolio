@@ -141,7 +141,7 @@ class Portfolio extends Component {
           <div onClick={ () => this.previousImage() } className="col-6 clickLeft"></div>
           <div onClick={ () => this.nextImage() } className="col-6 clickRight"></div>
         </div>
-        <header id="myCarousel" className="carousel slide">
+        <div id="myCarousel" className="carousel slide">
           {/* Indicators */}
           <ol className="carousel-indicators">
             { markers }
@@ -150,7 +150,7 @@ class Portfolio extends Component {
           <div className="carousel-inner">
               { images }
           </div>
-        </header>
+        </div>
       </div>
     );
   }
