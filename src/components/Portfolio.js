@@ -43,6 +43,7 @@ class Portfolio extends Component {
     }
   }
 
+
   nextImage() {
     let current = null;
     for (let i=0, x=this.state.images.length; i<x; i++) {
@@ -135,7 +136,7 @@ class Portfolio extends Component {
     })
 
     return (
-      <div className="portfolio">
+      <div className='portfolio'>
         <div className="clickables row">
           <div onClick={ () => this.previousImage() } className="col-6 clickLeft"></div>
           <div onClick={ () => this.nextImage() } className="col-6 clickRight"></div>
