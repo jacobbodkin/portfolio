@@ -18,6 +18,15 @@ class Development extends Component {
       <div className="development row justify-content-center">
         <div className="projects row justify-content-center col-12">
 
+          <a href="#" className="col-12 col-md-6 col-lg-4 wtp row" target="_blank">
+            <div className="figure col-12 light">
+              <img src="./images/clymr.jpg" alt="Thumb" />
+              <div className="figcaption">
+                <div className="lightTitle">Clymr</div>
+              </div>
+            </div>
+          </a>
+
           <a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1233304561&mt=8" className="col-12 col-md-6 col-lg-4 wtp row" target="_blank">
             <div className="figure col-12 light">
               <img src="./images/wethepeople.jpg" alt="Thumb" />
